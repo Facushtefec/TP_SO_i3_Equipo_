@@ -1,3 +1,7 @@
+Facundo Shtefec
+Ignacio Gonzalez
+Juan Del Valle
+
 1_ Archivos: Quedan datos.txt (con los datos de los tres integrados) , CPUGamma.txt, CPUAlfa.txt, CPUBeta.txt y beta.txt (con el historial de modificaciones de BETA, GAMMA y ALFA).  Historial: Consolidado y unificado con todas las ramas fusionadas con éxito.
 
 2_ Sí. Al hacer el pull/fetch de las ramas para meterlas en master , BETA ve obligatoriamente todo lo que escribieron sus compañeros, especialmente al resolver los conflictos de texto.  
@@ -20,3 +24,16 @@ git push origin <apellido_de_gamma>
 git checkout master
 git merge <apellido_de_gamma>
 git push origin master
+
+# 5. Sí, siempre que después del merge se actualicen con un git pull o un git merge desde la rama principal. Si no se actualizan, seguirán con la versión anterior.
+
+# 6. Hubo un conflicto en datos.txt porque varios integrantes modificaron el mismo archivo. Se resolvió editando el archivo manualmente, guardando los cambios y completando el merge.
+
+# 7. 
+git checkout master
+git pull origin master
+
+git checkout Shtefec
+git merge master
+
+git push origin Shtefec
