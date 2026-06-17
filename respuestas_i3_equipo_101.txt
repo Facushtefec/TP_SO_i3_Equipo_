@@ -1,1 +1,22 @@
+1_ Archivos: Quedan datos.txt (con los datos de los tres integrados) , CPUGamma.txt, CPUAlfa.txt, CPUBeta.txt y beta.txt (con el historial de modificaciones de BETA, GAMMA y ALFA).  Historial: Consolidado y unificado con todas las ramas fusionadas con éxito.
 
+2_ Sí. Al hacer el pull/fetch de las ramas para meterlas en master , BETA ve obligatoriamente todo lo que escribieron sus compañeros, especialmente al resolver los conflictos de texto.  
+
+# 1. Ir a master y actualizarlo
+git checkout master
+git pull origin master
+
+# 2. Ir a la rama en conflicto y traer lo de GitHub
+git checkout <apellido_de_gamma>
+git pull origin <apellido_de_gamma> 
+#  Acá salta el conflicto en datos.txt. BETA abre el archivo y lo arregla a mano.
+
+# 3. Guardar el arreglo y subir la rama limpia
+git add datos.txt
+git commit -m "Conflictos resueltos"
+git push origin <apellido_de_gamma>
+
+# 4. Volver a master y fusionar sin problemas
+git checkout master
+git merge <apellido_de_gamma>
+git push origin master
