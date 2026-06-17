@@ -25,11 +25,11 @@ git checkout master
 git merge <apellido_de_gamma>
 git push origin master
 
-# 5. Sí, siempre que después del merge se actualicen con un git pull o un git merge desde la rama principal. Si no se actualizan, seguirán con la versión anterior.
+5. Sí, siempre que después del merge se actualicen con un git pull o un git merge desde la rama principal. Si no se actualizan, seguirán con la versión anterior.
 
-# 6. Hubo un conflicto en datos.txt porque varios integrantes modificaron el mismo archivo. Se resolvió editando el archivo manualmente, guardando los cambios y completando el merge.
+6. Hubo un conflicto en datos.txt porque varios integrantes modificaron el mismo archivo. Se resolvió editando el archivo manualmente, guardando los cambios y completando el merge.
 
-# 7. 
+7. 
 git checkout master
 git pull origin master
 
