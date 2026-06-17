@@ -1,3 +1,5 @@
+Facundo Shtefec
+11:45AM
 
 Configuraci¢n IP de Windows
 
@@ -21,3 +23,31 @@ Adaptador de Ethernet Ethernet:
    M scara de subred . . . . . . . . . . . . : 255.255.255.0
    Puerta de enlace predeterminada . . . . . : fe80::6e99:61ff:fef1:cf9a%3
                                        192.168.0.1
+
+Ignacio Gonzalez 
+11:49AM
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS específico para la conexión. . :
+   Dirección IPv6 . . . . . . . . . . : 2803:9800:b018:8035:e33c:cb86:256d:bf6e
+   Dirección IPv6 temporal. . . . . . : 2803:9800:b018:8035:1c14:b81b:ac10:b8de
+   Dirección IPv6 temporal. . . . . . : 2803:9800:b018:8035:3474:59c:7a14:5d2d
+   Dirección IPv6 temporal. . . . . . : 2803:9800:b018:8035:6431:b66e:603d:bfff
+   Dirección IPv6 temporal. . . . . . : 2803:9800:b018:8035:803e:c451:8708:38c5
+   Dirección IPv6 temporal. . . . . . : 2803:9800:b018:8035:8872:c295:6a78:5918
+   Dirección IPv6 temporal. . . . . . : 2803:9800:b018:8035:88e6:89e5:7dab:f094
+   Dirección IPv6 temporal. . . . . . : 2803:9800:b018:8035:a95b:bbdf:9a88:6cfc
+   Vínculo: dirección IPv6 local. . . : fe80::42e9:e077:5178:4f03%12
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.100.82
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : fe80::1%12
+                                       192.168.100.1
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::c2cd:2fbb:fca3:14c1%7
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
